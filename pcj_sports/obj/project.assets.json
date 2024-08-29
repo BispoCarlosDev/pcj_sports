@@ -669,19 +669,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\": {}
+    "C:\\Users\\pedro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repositorios\\pcj_sports\\pcj_sports\\pcj_sports.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\source\\repos\\BispoCarlosDev\\pcj_sports\\pcj_sports\\pcj_sports.csproj",
       "projectName": "pcj_sports",
-      "projectPath": "C:\\repositorios\\pcj_sports\\pcj_sports\\pcj_sports.csproj",
-      "packagesPath": "C:\\Users\\Carlos Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\repositorios\\pcj_sports\\pcj_sports\\obj\\",
+      "projectPath": "C:\\Users\\pedro\\source\\repos\\BispoCarlosDev\\pcj_sports\\pcj_sports\\pcj_sports.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pedro\\source\\repos\\BispoCarlosDev\\pcj_sports\\pcj_sports\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Carlos Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -736,7 +736,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

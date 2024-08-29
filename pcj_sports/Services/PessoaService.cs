@@ -1,4 +1,8 @@
-﻿namespace pcj_sports.Services
+﻿using pcj_sports.Contexto;
+using pcj_sports.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace pcj_sports.Services
 {
     public class PessoaService
     {

@@ -6,3 +6,12 @@ C:\repositorios\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.csproj.CoreCom
 C:\repositorios\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.MvcApplicationPartsAssemblyInfo.cache
 C:\repositorios\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.RazorAssemblyInfo.cache
 C:\repositorios\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.RazorAssemblyInfo.cs
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.AssemblyInfo.cs
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.RazorAssemblyInfo.cache
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.RazorAssemblyInfo.cs
+C:\Users\pedro\source\repos\BispoCarlosDev\pcj_sports\pcj_sports\obj\Debug\net7.0\pcj_sports.sourcelink.json
