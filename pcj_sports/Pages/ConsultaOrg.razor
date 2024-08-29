@@ -1,0 +1,73 @@
+﻿@page "/listaorganizacoes"
+@using pcj_sports.Models;
+@using pcj_sports.Services;
+@inject OrganizacaoService organizacaoService;
+@inject NavigationManager navegacao;
+
+<h3>ORGANIZAÇÕES CADASTRADOS</h3>
+
+<div class="container">
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+    <div class="form-group">
+        <label for="input-datalist">Buscar</label>
+        <input type="text" class="form-control" placeholder="Buscar" list="lista-pessoas" @onchange="SelecionarOrganizacoes">
+        <datalist id="lista-pessoas">
+            @foreach (var item in organizacoes)
+            {
+                <option value="@item.Cnpj">@item.Nome</option>
+            }
+        </datalist>
+    </div>
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">NOME:</label>
+        <input @bind="organizacao.Nome" type="text" class="form-control" id="exampleFormControlInput1" disabled="@campoBloqueado">
+    </div>
+    <div class="row align-items-start">
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">CNPJ:</label>
+                <input @bind="organizacao.Cnpj" type="text" class="form-control" id="exampleFormControlInput2" disabled="@campoBloqueado">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">DATA DE ABERTURA:</label>
+                <input @bind="organizacao.DataAbertura" type="date" class="form-control" id="exampleFormControlInput2" disabled="@campoBloqueado">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">RAZÃO SOCIAL:</label>
+                <input @bind="organizacao.RazaoSocial" type="tel" class="form-control" id="exampleFormControlInput2" disabled="@campoBloqueado">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+#################################################### PARTE 2 ##################################################################
+
+
+
+
+@code {
+    private List<Organizacao> organizacoes { get; set; }
+    private Organizacao? organizacao = new Organizacao();
+    private bool campoBloqueado = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        organizacoes = new List<Organizacao>();
+        var lista = organizacaoService?.Organizacoes();
+        organizacoes = lista.Result.ToList();
+    }
+
+    public void SelecionarOrganizacoes(ChangeEventArgs e)
+    {
+        string cnpj = e.Value.ToString();
+        organizacao = organizacoes.Where(p => p.Cnpj == cnpj).FirstOrDefault();
+    }
+}

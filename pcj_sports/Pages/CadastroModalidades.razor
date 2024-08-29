@@ -1,0 +1,78 @@
+﻿@page "/cadastromodalidade"
+@using pcj_sports.Models;
+@using pcj_sports.Services;
+@inject ModalidadeService ModalidadeService;
+@inject NavigationManager navegacao;
+
+<h3>CADASTRO DE MODALIDADE</h3>
+
+<div class="container">
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+    <div class="row align-items-start">
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">NOME DO ATLETA:</label>
+                <input @bind="modalidade.Nome" type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">CPF DO ATLETA:</label>
+                <input @bind="modalidade.Sexo" type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+        <div class="col">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">DATA DE NASCIMENTO:</label>
+                <input @bind="modalidade.Descricao" type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+        </div>
+
+    </div>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: darkgreen"></nav>
+
+    <nav class="navbar navbar-light" style="background-color: white"></nav>
+    @if (enabledButton)
+    {
+        <button type="button" class="btn btn-warning" @onclick="Cancelar">CANCELAR</button>
+        <button type="button" class="btn btn-success" @onclick="Salvar">SALVAR</button>
+    }
+    else
+    {
+        <div class="alert alert-success" role="alert">
+            Inscrição realizada com sucesso! (Número: @numeroInsc);
+        </div>
+        <button type="button" class="btn btn-primary" @onclick="NovoCandidato">NOVO CANDIDATO</button>
+    }
+</div>
+
+
+@code {
+    private bool novo = false;
+    private bool campoBloqueado = false;
+    private Modalidade? modalidade = new Modalidade();
+    private static int id = 0;
+
+    public async Task Salvar()
+    {
+        modalidade.Id = ++id;
+        await modalidadeService.Add(modalidade);
+        novo = true;
+        campoBloqueado = true;
+    }
+
+    public void NovoRegistro()
+    {
+        novo = false;
+        navegacao.NavigateTo("/cadastromodalidade", forceLoad: true);
+    }
+}

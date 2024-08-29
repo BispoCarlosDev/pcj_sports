@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = pcj_sports
+build_property.RootNamespace = pcj_sports
+build_property.ProjectDir = C:\repositorios\pcj_sports\pcj_sports\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\repositorios\pcj_sports\pcj_sports
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/repositorios/pcj_sports/pcj_sports/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/CadastroAtletas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9BdGxldGFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/CadastroModalidades.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9Nb2RhbGlkYWRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/CadastroOrg.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm9PcmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/ConsultaAtleta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFBdGxldGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/ConsultaModalidade.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFNb2RhbGlkYWRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/ConsultaOrg.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VsdGFPcmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/Filtros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlsdHJvcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-50gnwnb2nr
+
+[C:/repositorios/pcj_sports/pcj_sports/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jj80zdhk0o
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/repositorios/pcj_sports/pcj_sports/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
